@@ -1,0 +1,1 @@
+<a class="logoutButton" href="logout">log out</a>

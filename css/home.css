@@ -1,0 +1,94 @@
+    article{
+    width: 100%; 
+    }
+
+    .homeContent{
+        width: auto;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .introduction{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: rgb(19, 18, 18);
+        padding: 30px;
+        border-bottom: 15px solid rgb(19, 19, 19);
+        border-top: 15px solid rgb(54, 54, 54);
+        border-right: 15px solid rgb(31, 31, 31);
+        border-left: 15px solid rgb(5, 5, 5);
+        padding-top: 0%;
+        border-radius: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .textTitle{
+        font-size: 4pc;
+        color: white;
+    }
+
+    .text{
+        color: brown;
+        width: 800px;
+        font-size: 1.5pc;
+        text-align: justify;
+    }
+
+
+    @keyframes cambio {
+
+        0% { margin-left: 0;}
+        10% { margin-left: 0;}
+
+        15% { margin-left: -100%;}
+        25% { margin-left: -100%;}
+
+        30% {margin-left: -200%;}
+        40% {margin-left: -200%;}
+
+        45% {margin-left: -300%;}
+        55% {margin-left: -300%;}
+    }
+
+    /* IMAGENES DE HOME */
+
+    .imagenes {
+        width: 40%;
+        overflow: hidden;
+        border-right: 4px solid rgb(196, 30, 30);
+        border-left: 4px solid rgb(196, 30, 30);
+        border-bottom: 4px solid rgb(196, 30, 30);
+        border-radius: 30px;
+    }
+
+    .listaFotos{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        padding: 0;
+        opacity: 100;
+        width: 400%;
+        animation: cambio 20s infinite;
+        animation-direction: alternate;
+        overflow: hidden;
+    }
+
+    .listaFotos li{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        list-style: none;
+        height: auto;
+    }
+
+    .imgInformacion {
+        height: 100%;
+        margin-bottom: 0px;
+        width: 70%;
+        border: 5px solid rgb(182, 182, 182);
+        border-bottom: 7px solid rgb(94, 94, 94);
+        border-right: 7px solid rgb(71, 71, 71);
+        border-radius: 30px;
+    }

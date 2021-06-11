@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p{
+    margin: 0;
+    color: white;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    margin: 0;
+    background-image: linear-gradient(#030303, #0f0f0f);
+    background-color: #030303;
+}
+
+a{
+    color: white;
+}
+
+.titulo{
+    margin-right: 20px;
+    color: white;
+    flex-wrap: wrap;
+    font-size: 140pt;
+    font-family: "motherland";
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.titulo:hover{
+    color: red;
+    transition: all ease 5000ms;
+}
+
+#principal{
+    margin-top: 50px;
+}
+
+nav{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemNav{
+    font-family: "Kremlin Advisor Display Kaps Bo";
+    color: white;
+    font-size: 40pt;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.itemNav:hover{
+    padding: 20px;
+    padding-bottom: 10px;
+    color: rgb(206, 0, 0);
+    background-color: aliceblue;
+    transition: all ease 1000ms;
+    border-radius: 10px;
+    font-size: 40pt;
+}
+
+#seccionActual{
+    padding: 20px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    transition: all ease 1000ms;
+    border-radius: 10px;
+    font-size: 40pt;
+}
+
+
+
+footer{
+    border-top: 4px solid rgb(34, 34, 34);
+    margin-top: 50px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    min-height: 150px;
+    
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.webDeveloper{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.links{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.itemFooter{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid rgb(148, 148, 148);
+}
+
+.logoutButton{
+    position: absolute;
+    top: 8%;
+    left: 86%;
+    background-color: rgb(206, 0, 0);
+    font-family: "Kremlin Advisor Display Kaps Bo";
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 4px;
+    font-size: 40px;
+    border-radius: 30px;
+    border: 8px solid rgb(46, 46, 46);
+    color: black;
+}
+
+.logoutButton:hover{
+    transition: all ease 1000ms;
+    color: white;
+    border-color: white;
+}
+
+.adminButton{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    background-color: #A5005D;
+    font-family: "Kremlin Advisor Display Kaps Bo";
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 4px;
+    font-size: 40px;
+    border-radius: 30px;
+    border: 8px solid rgb(46, 46, 46);
+    color: black;
+}
+
+.adminButton:hover{
+    transition: all ease 1000ms;
+    color: white;
+    border-color: white;
+}
